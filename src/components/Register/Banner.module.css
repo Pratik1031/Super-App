@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  background-image: url(../../assests/image/Bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 845px;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: flex-end;
+  bottom: 0;
+}
+.banner p {
+  width: 695px;
+  height: 143px;
+  margin: 0 50px 90px 62px;
+  color: #fff;
+  text-align: left;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 1.1px;
+}
