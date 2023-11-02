@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding-right: 20px;
+  background-color: black;
+  gap: 6.5rem;
+}
+
+.cards_section {
+  width: 30vw;
+  max-height: 60vh;
+  max-width: 30vw;
+  height: 60vh;
+  padding-top: 3vh;
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.info_section {
+  width: 40vw;
+  height: 80vh;
+  padding-top: 10vh;
+  text-align: center;
+  padding-left: 58px;
+}
+
+.title {
+  font-size: 5rem;
+  color: green;
+  font-family: 'Single Day', cursive;
+}
+
+.sub_Title {
+  font-size: 2.5rem;
+  color: white;
+  text-align: left;
+  margin-top: 77px;
+}
+
+.signUp {
+  color: white;
+  background: green;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 1vh;
+  right: 3vw;
+  border: none;
+  padding: 12px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}

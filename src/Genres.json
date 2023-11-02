@@ -1,0 +1,47 @@
+[
+  {
+    "id": "Action",
+    "color": "#FF5209",
+    "image": "/image/action.png"
+  },
+  {
+    "id": "Drama",
+    "color": "#D7A4FF",
+    "image": "image/drama.png"
+  },
+  {
+    "id": "Fantasy",
+    "color": " #FF4ADE",
+    "image": "image/fantasy.png"
+  },
+  {
+    "id": "Fiction",
+    "color": "#6CD061",
+    "image": "image/fiction.png"
+  },
+  {
+    "id": "Horror",
+    "color": "#7358FF",
+    "image": "image/horror.png"
+  },
+  {
+    "id": "Music",
+    "color": "#E61E32",
+    "image": "image/music.png"
+  },
+  {
+    "id": "Romance",
+    "color": "#11B800",
+    "image": "image/romance.png"
+  },
+  {
+    "id": "Thriller",
+    "color": "#84C2FF",
+    "image": "image/thriller.png"
+  },
+  {
+    "id": "Western",
+    "color": "#912500",
+    "image": "image/western.png"
+  }
+]
