@@ -1,0 +1,49 @@
+.profile_container {
+  width: 45vw;
+  height: 50vh;
+  background: #5746ea;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  margin-top: 5rem;
+  gap: 14px;
+}
+
+.profile_img > img {
+  height: 40vh;
+  width: 10vw;
+  position: relative;
+  top: 2vh;
+}
+
+.info {
+  margin-top: 2rem;
+  line-height: 2.8rem;
+  position: relative;
+}
+
+p {
+  color: white;
+  font-size: 2rem;
+}
+
+.categories_button {
+  display: flex;
+  max-width: 300px;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 90px;
+  overflow-y: auto;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 36.947px;
+  background: #9f94ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

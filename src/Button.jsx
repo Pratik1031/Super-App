@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Chips = ({ color, id, setCategories, categories }) => {
+const Button = ({ color, id, setCategories, categories }) => {
   const handleClick = () => {
     const index = categories.indexOf(id);
     categories.splice(index, 1);
@@ -24,11 +24,15 @@ const Chips = ({ color, id, setCategories, categories }) => {
           onClick={handleClick}
         >
           {category}{' '}
-          <span style={{ color: 'black', marginLeft: '4px' }}>X</span>
+          {setCategories ? (
+            <span style={{ color: 'black', marginLeft: '4px' }}>X</span>
+          ) : (
+            <></>
+          )}
         </button>
       ))}
     </div>
   );
 };
 
-export default Chips;
+export default Button;

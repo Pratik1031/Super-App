@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Category.module.css';
-import Chips from '../../Chips';
+import Button from '../../Button';
 import Cards from './Cards';
 import genres from '../../Genres.json';
 
@@ -30,7 +30,7 @@ const Category = () => {
         <p className={styles.title}>Super app</p>
         <p className={styles.sub_Title}>Choose your entertainment category</p>
         <div style={{ marginTop: '10vh' }}>
-          <Chips
+          <Button
             categories={categories}
             color={'green'}
             setCategories={setCategories}
