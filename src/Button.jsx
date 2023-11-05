@@ -7,7 +7,7 @@ const Button = ({ color, id, setCategories, categories }) => {
     setCategories([...categories]);
   };
   return (
-    <div style={{ width: '40vw' }}>
+    <div style={{ width: '20vw' }}>
       {categories.map((category) => (
         <button
           style={{

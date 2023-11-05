@@ -11,13 +11,12 @@ const ProfileCard = () => {
       <div className={styles.profile_img}>
         <img src={Profile} alt='Profile-avatar' />
       </div>
-      <div>
-        <div className={styles.info}>
-          <p>{info.name}</p>
-          <p>{info.mail}</p>
-          <p style={{ fontSize: '3rem', fontWeight: '500' }}>{info.username}</p>
-        </div>
-        <div className={styles.categories_button} style={{ marginTop: '2rem' }}>
+      <div className={styles.info}>
+        <p>{info.name}</p>
+        <p>{info.mail}</p>
+        <p style={{ fontSize: '2rem', fontWeight: '500' }}>{info.username}</p>
+        <div className={styles.categories_button}>
+          {' '}
           <Button categories={geners} color={'#9F94FF'} />
         </div>
       </div>

@@ -1,0 +1,38 @@
+.container {
+  width: 935px;
+  height: 210px;
+  background: rgb(30, 35, 67);
+  position: absolute;
+  border-radius: 12px;
+  margin-top: 1.25rem;
+  display: flex;
+  box-sizing: border-box;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.timer_section {
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-evenly;
+}
+
+.times {
+  text-align: center;
+  padding: 6px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.playing_button {
+  background: rgb(255, 106, 106);
+  border-radius: 12px;
+  padding: 6px;
+  color: white;
+  text-align: center;
+}

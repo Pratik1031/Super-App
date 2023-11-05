@@ -59,7 +59,7 @@ const WeatherCard = () => {
             <div className={styles.condition}>
               <img
                 src={weather.current.condition.icon}
-                style={{ width: '95px', height: '80px' }}
+                style={{ width: '80px', height: '70px' }}
               />
               <p>{weather.current.condition.text}</p>
             </div>

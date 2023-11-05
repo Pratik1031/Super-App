@@ -1,0 +1,27 @@
+.notes {
+  color: white;
+  background: rgb(241, 199, 91);
+  width: 408px;
+  height: 385px;
+  position: relative;
+  border-radius: 12px;
+  padding: 6px;
+  margin-top: 3rem;
+}
+
+.notes > p {
+  color: #000;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.textSection {
+  width: 30vw;
+  height: 40vh;
+  margin: auto;
+  border: none;
+  background: transparent;
+  outline: 0px;
+}

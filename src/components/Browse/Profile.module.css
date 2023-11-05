@@ -1,49 +1,53 @@
 .profile_container {
-  width: 45vw;
-  height: 50vh;
+  width: 501px;
+  height: 200px;
   background: #5746ea;
   border-radius: 12px;
   display: flex;
   justify-content: space-around;
   padding: 6px;
-  margin-top: 5rem;
+  margin-top: 3rem;
   gap: 14px;
 }
 
 .profile_img > img {
-  height: 40vh;
-  width: 10vw;
+  height: 23vh;
+  width: 9vw;
   position: relative;
   top: 2vh;
 }
 
 .info {
-  margin-top: 2rem;
-  line-height: 2.8rem;
+  width: 225px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+  line-height: 1.8rem;
   position: relative;
 }
 
 p {
   color: white;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .categories_button {
   display: flex;
-  max-width: 300px;
+  max-width: 250px;
   flex-wrap: wrap;
   gap: 10px;
   max-height: 90px;
   overflow-y: auto;
 }
 
-button {
+Button {
   width: 150px;
+  max-height: 150px;
+  overflow-y: auto;
   height: 40px;
-  flex-shrink: 0;
-  border-radius: 36.947px;
+  border-radius: 36px;
   background: #9f94ff;
   outline: none;
   border: none;
-  cursor: pointer;
 }

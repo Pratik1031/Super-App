@@ -1,8 +1,15 @@
 import ProfileCard from '../components/Browse/ProfileCard';
 import NewsCard from '../components/Browse/NewsCard';
+import Notes from '../components/Browse/Notes';
+import Timer from '../components/Browse/Timer';
 import WeatherCard from '../components/Browse/WeatherCard';
+import { useNavigate } from 'react-router-dom';
 
 const BrowsePage = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/movies');
+  };
   return (
     <div
       className='main '
@@ -21,13 +28,36 @@ const BrowsePage = () => {
         style={{
           display: 'flex',
           gap: '20px',
-          flexDirection: 'column',
         }}
       >
-        <ProfileCard />
-        <WeatherCard />
+        <div>
+          {' '}
+          <ProfileCard />
+          <WeatherCard />
+          <Timer />
+        </div>
+        <div>
+          <Notes />
+        </div>
+        <div>
+          <NewsCard />
+        </div>
       </div>
-      <NewsCard />
+      <button
+        style={{
+          position: 'absolute',
+          bottom: '2vh',
+          right: '3vw',
+          background: 'green',
+          border: 'none',
+          color: 'white',
+          padding: '6px',
+          borderRadius: '12px',
+        }}
+        onClick={handleClick}
+      >
+        Next Page
+      </button>
     </div>
   );
 };
