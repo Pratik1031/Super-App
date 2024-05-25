@@ -10,6 +10,7 @@ body {
   background-color: black;
   font-family: 'Single Day', cursive;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .home {
