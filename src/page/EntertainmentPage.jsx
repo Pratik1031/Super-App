@@ -16,6 +16,7 @@ const EntertainmentPage = () => {
       <div className={styles.mainContainer}>
         <img
           src={Profile}
+          alt='Profile'
           style={{
             position: 'absolute',
             top: '2vh',

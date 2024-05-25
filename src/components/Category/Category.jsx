@@ -4,7 +4,6 @@ import styles from './Category.module.css';
 import Button from '../../Button';
 import Cards from './Cards';
 import genres from '../../Genres.json';
-
 import Danger from '../../assests/icon/Vector.svg';
 
 const Category = () => {
